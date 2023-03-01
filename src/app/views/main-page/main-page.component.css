@@ -1,3 +1,24 @@
 table {
     width: 100%;
 }
+
+.table-container{
+    padding: 1% 5%;
+}
+
+.search-form-field{
+    width: 100%;
+    font-size: 40px;
+}
+
+input, mat-label, mat-hint{
+    padding-left: 1%;
+}
+
+mat-label{
+    padding-top: 1%;
+}
+
+mat-hint{
+    font-size: 15px;
+}
