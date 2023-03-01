@@ -11,7 +11,9 @@ import {MatTableDataSource} from '@angular/material/table';
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements AfterViewInit {
+  
   displayedColumns: string[] = ['firstName', 'lastName', 'email', 'primaryGroup', 'phone', 'hrsStudied'];
+  
   people = new MatTableDataSource(this.peopleService.getAllPeople())
   filter : any
 
@@ -23,6 +25,11 @@ export class MainPageComponent implements AfterViewInit {
   sort= new MatSort();
 
   ngAfterViewInit() {
+    //Defining new filtering method
+    this.people.filterPredicate = function(data: any, filter){
+      return data.email.toLocaleLowerCase().concat(data.primaryGroup.toLocaleLowerCase()).includes(filter.toLocaleLowerCase())
+    }
+    
     this.people.sort = this.sort;
   }
 
@@ -35,8 +42,8 @@ export class MainPageComponent implements AfterViewInit {
   }
 
   filterChange(filterValue: string){
-    filterValue = filterValue.trim(); // Remove whitespace
-        filterValue = filterValue.toLowerCase(); // MatTableDataSource defaults to lowercase matches
+    filterValue = filterValue.trim(); 
+        filterValue = filterValue.toLowerCase(); 
         this.people.filter = filterValue;
   }
 }

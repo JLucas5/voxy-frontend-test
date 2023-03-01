@@ -4,7 +4,7 @@
         "firstName":"João Lucas",
         "lastName":"Bastos",
         "email":"jlucas@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Student",
         "phone":"555-1234",
         "hrsStudied":1123
     },
@@ -12,7 +12,7 @@
         "firstName":"Joe",
         "lastName":"Doe",
         "email":"joedoe@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Important People",
         "phone":"555-4322",
         "hrsStudied":1211
     },
@@ -20,7 +20,7 @@
         "firstName":"Anne",
         "lastName":"Danne",
         "email":"anned@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Normal People",
         "phone":"555-4572",
         "hrsStudied":421
     },
@@ -28,7 +28,7 @@
         "firstName":"Jane",
         "lastName":"Jinny",
         "email":"jjinny@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Important People",
         "phone":"555-1847",
         "hrsStudied":1002
     },
@@ -36,7 +36,7 @@
         "firstName":"Carl",
         "lastName":"Jackson",
         "email":"carljacksn@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Important People",
         "phone":"555-2752",
         "hrsStudied":978
     },
@@ -44,7 +44,7 @@
         "firstName":"Seth",
         "lastName":"Owlsen",
         "email":"sethwhosen@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Normal People",
         "phone":"555-0834",
         "hrsStudied": 1523
     },
@@ -52,7 +52,7 @@
         "firstName":"Dexter",
         "lastName":"Labb",
         "email":"dexlab@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Important People",
         "phone":"555-1847",
         "hrsStudied":2620
     },
@@ -60,7 +60,7 @@
         "firstName":"Cybelle",
         "lastName":"Esper",
         "email":"cyesper@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Normal People",
         "phone":"555-9632",
         "hrsStudied":1356
     },
@@ -68,7 +68,7 @@
         "firstName":"Phillip",
         "lastName":"Third",
         "email":"philthird@email.com",
-        "primaryGroup":"",
+        "primaryGroup":"Normal People",
         "phone":"555-7624",
         "hrsStudied":678
     }
