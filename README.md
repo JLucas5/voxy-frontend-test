@@ -3,7 +3,14 @@
 This project was developed as a coding challenge for a frontend developer position at Voxy.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
-For more informations about how to install and run Angular, you can access [here](https://angular.io/guide/setup-local#install-the-angular-cli)
+
+## Pre-requisites
+
+* Node.js
+* npm package manager
+* Angular
+
+For more informations about how to install and run Angular, you can access [here](https://angular.io/guide/setup-local#install-the-angular-cli).
 
 ## Development server
 
