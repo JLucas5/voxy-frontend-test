@@ -9,6 +9,6 @@ export class PeopleService {
   constructor() { }
 
   getAllPeople(){
-    return people as object[]
+    return people
   }
 }
