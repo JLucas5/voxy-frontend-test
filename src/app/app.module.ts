@@ -6,7 +6,14 @@ import { AppComponent } from './app.component';
 import { MainPageComponent } from './views/main-page/main-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { FormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatSortModule } from '@angular/material/sort'
 import { MatTableModule } from '@angular/material/table'  
+import {MatInputModule} from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon'
+
+
 
 @NgModule({
   declarations: [
@@ -17,7 +24,12 @@ import { MatTableModule } from '@angular/material/table'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTableModule
+    MatTableModule,
+    MatSortModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
