@@ -10,6 +10,7 @@ import {MatTableDataSource} from '@angular/material/table';
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.css']
 })
+
 export class MainPageComponent implements AfterViewInit {
   
   displayedColumns: string[] = ['firstName', 'lastName', 'email', 'primaryGroup', 'phone', 'hrsStudied'];
