@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PeopleService  } from 'src/app/services/people/people.service';
 
 @Component({
   selector: 'app-main-page',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
+  people: object[] = []
+
+  displayedColumns: string[] = ['first-name', 'last-name', 'email', 'primary-group', 'phone', 'hours-studied'];
+
+  constructor(
+    private peopleService : PeopleService
+  ) { }
 
   ngOnInit(): void {
+
+  this.people = this.peopleService.getAllPeople()
+  
+  
+
   }
 
 }
